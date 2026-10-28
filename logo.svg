@@ -1,0 +1,31 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="52" fill="#FFFFFF"/>
+
+  <!-- Main geometric N -->
+  <path
+    d="M58 190 V66 H91 L165 151 V66 H198 V190 H165 L91 105 V190 Z"
+    fill="#C62828"
+    stroke="#A91F29"
+    stroke-width="1.5"
+    stroke-linejoin="round"
+  />
+
+  <!-- Subtle geometric cut defining the diagonal -->
+  <path
+    d="M91 105 L165 151 V164 L91 119 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Controlled crimson highlight -->
+  <path
+    d="M165 66 H198 L165 104 Z"
+    fill="#E04444"
+  />
+
+  <!-- Lower-right depth accent -->
+  <path
+    d="M165 151 L198 190 H165 Z"
+    fill="#941B25"
+  />
+</svg>
